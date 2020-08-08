@@ -1,16 +1,23 @@
-### Hi there 👋
+<h1 align="center">Olá <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="40px" />, me chamo João Pedro</h1>
+<h3 align="center">Um desenvolvedor Front-End júnior com uma paixão por UI / UX e acessibilidade.</h3>
 
-<!--
-**joaom00/joaom00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Entrei no mundo da programação há 6 meses, e a cada dia estou aprendendo coisas novas e isso me faz ter a certeza de que escolhi o caminho certo que desejo seguir para a minha vida, o desenvolvimento web!. É por isso que todos os dias me dedico ao maximo para continuar aprendendo e assim consiga me tornar o desenvolvedor que almejo ser.
 
-Here are some ideas to get you started:
+**Atualmente estou aprendendo:**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="left">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML" width="40" height="40"/>
+
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="NodeJS" width="40" height="40"/>
+
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="NodeJS" width="40" height="40"/>
+
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="NodeJS" width="40" height="40"/>
+
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="ReactJS" width="40" height="40"/>
+
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png" alt="VueJS" width="40" height="40"/>
+
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="NodeJS" width="40" height="40"/>
+
+</p>
