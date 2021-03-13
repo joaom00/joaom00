@@ -1,6 +1,8 @@
 <h1 align="center">Olá <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="40px" />, me chamo João Pedro</h1>
 
-Sou desenvolvedor front-end com conhecimentos em back-end mas que não se considera um full-stack. Tenho uma vontade imensa de aprender tudo que envolve o desenvolvimento web, por isso estou sempre em busca de evoluir, visando sempre as melhores práticas com cada tecnologia que eu sei e as que, eventualmente, vou aprender.
+Estou estudando para me tornar um desenvolvedor front-end. Tenho uma vontade imensa de aprender tudo que envolve o desenvolvimento web, por isso estou sempre em busca de evoluir, visando sempre as melhores práticas com cada tecnologia que eu sei e as que, eventualmente, vou aprender.
+
+Também gosto de UI e UX design, pois gosto de deixar as “coisas bonitinhas” e sempre desenvolver aplicações centradas no usuário para que ele tenha a melhor experiência possível. 
 
 ### **Atualmente estou aprendendo:**
 
