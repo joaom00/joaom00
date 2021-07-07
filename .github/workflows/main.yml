@@ -19,6 +19,9 @@ jobs:
           plugin_languages: yes
           plugin_stars: yes
           plugin_topics: yes
+          plugin_topics_sort: stars
+          plugin_topics_mode: mastered
           plugin_followup: yes
           plugin_achievements: yes
-          #config_order: base, isocalendar, languages, stars
+          plugin_achievements_threshold: B
+          config_order: base, topics, languages, followup, isocalendar, achievements, stars
