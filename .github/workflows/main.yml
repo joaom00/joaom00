@@ -24,4 +24,4 @@ jobs:
           plugin_followup: yes
           plugin_achievements: yes
           plugin_achievements_threshold: B
-          config_order: base.header, base.activity, base.community, base.repositories, topics, languages, followup, isocalendar, achievements, stars
+          config_order: base.header, topics, languages, followup, isocalendar, achievements, stars
