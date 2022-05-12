@@ -23,4 +23,7 @@ jobs:
           plugin_topics_mode: mastered
           plugin_achievements: yes
           plugin_achievements_threshold: B
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
           #config_order: base.header, base.activity, topics, languages, followup, isocalendar, achievements, stars
