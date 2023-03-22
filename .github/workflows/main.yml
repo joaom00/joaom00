@@ -10,21 +10,40 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # See action.yml for all options
-      - uses: lowlighter/metrics@latest
+      - name: 🦑 Achievements
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg
+          filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          #base: header, activity, community, repositories
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_fortune: yes
+          
+      - name: 🦑 General
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+        with:
+          filename: general.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header
+          base_indepth: yes
+          config_order: base.header, isocalendar, languages, notable, discussions, topics
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
           plugin_isocalendar: yes
           plugin_languages: yes
-          plugin_stars: yes
+          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot, vue, scala, c, c++, python, ejs
+          plugin_languages_details: lines, bytes-size, percentage
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 2
           plugin_topics: yes
-          plugin_topics_sort: stars
-          plugin_topics_mode: mastered
-          plugin_achievements: yes
-          plugin_achievements_threshold: B
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
           plugin_notable: yes
-          plugin_notable_indepth: yes
-          plugin_notable_repositories: yes
-          plugin_notable_from: all
-          #config_order: base.header, base.activity, topics, languages, followup, isocalendar, achievements, stars
+          plugin_discussion: yes
+          
