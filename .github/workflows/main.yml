@@ -17,6 +17,7 @@ jobs:
           filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          config_order: achievements, fortune, followup, stars
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
           plugin_achievements: yes
