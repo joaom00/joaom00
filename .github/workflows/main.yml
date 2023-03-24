@@ -22,6 +22,9 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_fortune: yes
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+          plugin_stars: yes
           
       - name: 🦑 General
         if: ${{ success() || failure() }}
