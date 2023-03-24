@@ -45,5 +45,5 @@ jobs:
           plugin_topics_limit: 0
           plugin_topics_mode: icons
           plugin_notable: yes
-          plugin_discussion: yes
+          plugin_discussions: yes
           
